@@ -1,0 +1,43 @@
+{
+    "weekday": "6",
+    "departure": {
+        "iataCode": "ber",
+        "icaoCode": "eddb",
+        "terminal": "1",
+        "gate": "a06",
+        "scheduledTime": "06:00"
+    },
+    "arrival": {
+        "iataCode": "ams",
+        "icaoCode": "eham",
+        "terminal": "",
+        "gate": "",
+        "scheduledTime": "07:25"
+    },
+    "aircraft": {
+        "modelCode": "b738",
+        "modelText": "boeing 737-8k2"
+    },
+    "airline": {
+        "name": "",
+        "iataCode": "am",
+        "icaoCode": "am"
+    },
+    "flight": {
+        "number": "6258",
+        "iataNumber": "am6258",
+        "icaoNumber": "am6258"
+    },
+    "codeshared": {
+        "airline": {
+            "name": "klm",
+            "iataCode": "kl",
+            "icaoCode": "klm"
+        },
+        "flight": {
+            "number": "1818",
+            "iataNumber": "kl1818",
+            "icaoNumber": "klm1818"
+        }
+    }
+}
