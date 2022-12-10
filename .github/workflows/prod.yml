@@ -1,8 +1,8 @@
-name: Deploy to Staging
+name: Deploy to Production
 
 on:
   push:
-    branches: [develop]
+    branches: [master]
 
 jobs:
   deploy:
@@ -26,4 +26,4 @@ jobs:
       - name: Deploy
         run: railway up
         env:
-          RAILWAY_TOKEN: ${{ secrets.RAILWAY_STAGING_TOKEN }}
+          RAILWAY_TOKEN: ${{ secrets.RAILWAY_PROD_TOKEN }}
